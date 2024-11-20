@@ -13,7 +13,6 @@ sudoku = [
         [5,0,8,0,4,0,0,0,3]
         ]
 
-
 def matrix(matrix):
     os.system("clear")
     for x,row in enumerate(matrix):
@@ -28,7 +27,7 @@ def matrix(matrix):
             else:
                 print("   ", end="")
         print()
-    time.sleep(0.07)
+    time.sleep(0.04)
 
 
 
